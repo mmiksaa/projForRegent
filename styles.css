@@ -2,6 +2,11 @@ body {
   background-color: #181818;
   color: #fff;
   font-family: 'Roboto';
+  display: flex;
+
+  min-height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .header {
@@ -141,6 +146,7 @@ table {
 
 footer {
   display: flex;
+
   align-items: center;
   background-color: #1c1c1e;
   padding: 20px;
