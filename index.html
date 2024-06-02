@@ -6,16 +6,21 @@
     <title>RoCu Martial Arts</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="inner">
-        <h1>Welcome to RoCu Martial Arts</h1>
+        <h1 class="wow animate__animated animate__fadeIn">Welcome to RoCu Martial Arts</h1>
 
         <nav>
           <ul class="navigation">
-            <li><a class="link" href="timetable.html">Class Timetable</a></li>
-            <li><a class="link" href="instructors.html">Instructor & Users</a></li>
+            <li class="wow animate__animated animate__fadeInLeft">
+              <a class="link" href="timetable.html">Class Timetable</a>
+            </li>
+            <li class="wow animate__animated animate__fadeInRight">
+              <a class="link" href="instructors.html">Instructor & Users</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -24,7 +29,7 @@
     <main>
       <section id="prices">
         <h2>Prices and Membership Options</h2>
-        <ul class="list">
+        <ul class="list wow animate__animated animate__fadeInUp">
           <li class="item">
             <img class="img" src="img/boxing.jpeg" alt="" />
             <h3 class="desc">Basic (1 martial art - 2 sessions per week)</h3>
@@ -87,7 +92,7 @@
         achievement of dreams. Your strength is not in your muscles, but in your determination to win."
       </quote>
 
-      <section id="courses">
+      <section class="wow animate__animated animate__fadeIn" id="courses">
         <h2>Specialist Courses and Fitness Training</h2>
         <ul class="list">
           <li class="item">
@@ -116,4 +121,6 @@
 
     <footer><p>&copy; 2024 RoCu Martial Arts</p></footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="main.js"></script>
 </html>
